@@ -13,7 +13,8 @@
 # limitations under the License.
 
 # Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES :=
+PRODUCT_COPY_FILES := \
+    vendor/t2m/flame/proprietary//libtime_genoff.so:obj/lib/libtime_genoff.so
 
 # All the blobs
 PRODUCT_COPY_FILES += \
